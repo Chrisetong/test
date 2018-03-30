@@ -1,0 +1,379 @@
+@CHARSET "UTF-8";
+body{
+	line-height: inherit;
+}
+.h5-1yyg-v1 {
+    padding-top: 45px; 
+}
+.main img{
+	display: block;
+}
+.m-simpleHeader {
+    color: #FFF;
+    height: 45px;
+    line-height: 45px;
+    background: #fff;
+    border-width: 0;
+}
+.m-simpleHeader h1 {
+    color: #222;
+    font-size: 18px;
+}
+.m-simpleHeader .ico-back {
+    color: #999;
+    margin-top: 15px;
+}
+.vip-app{
+	padding:25px 0 0;
+	overflow: hidden;
+	text-align: center;
+}
+.vip-app ul{ 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+   -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 4.6%;
+    margin-bottom: 25px;
+    }
+.vip-app ul li{ 
+	display: block;
+	-webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;  
+    margin: 0 4.6%;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15); 
+    border-radius: 5px;
+    text-align: center;
+    padding:14px 0;
+}
+.vip-app ul li span{
+	display: block;
+    width: 100%;
+    font-size: 10px;
+    line-height: 1.4;
+}
+.vip-detail{
+	padding:0 7%;
+}
+.vip-project{
+	margin-bottom: 15px;
+}
+.vip-tit{
+	text-align: center;
+	margin: 12px 0;
+}
+.vip-list-tit{
+	font-size: 14px;
+	color:#222; 
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+.vip-list-tit>a{
+	color:#e4341a;
+	font-size: 10px;
+	float: right;
+	font-weight: normal;
+}
+.foods-info {
+    position: relative;
+    margin: 0;
+    overflow:hidden;  
+}
+.foods-info-tit {
+	float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    margin: 25px 4%;
+    border: 0px;
+    background: url(/Images/shop/ckzz.png) no-repeat left;
+    background-size: 14px;
+    display: inline-block;
+    padding-left: 20px;
+    color: #222;
+    margin-bottom: 10px;
+    width: 100%;
+    line-height: 16px;
+    background-position: 0 1px;
+    font-weight: bold;  
+
+}
+.foods-info-tit em{
+	font-size: 10px;
+	font-weight: normal;
+}
+.foods-info-list{
+	padding: 15px 4%;
+	overflow: hidden;
+	background: #F5F5F5; 
+	margin-bottom: 28px;
+}
+.foods-info-detail {
+	padding: 0 5px 10px 15px;
+	overflow: hidden;
+	background: #FFF;  
+	box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15); 
+    border-radius: 5px; 
+	margin-bottom: 8px;
+}
+.foods-info-detail:last-child{
+	margin-bottom: 0px;
+}
+
+.foods-list-tit{ 
+	font-size: 14px;
+    padding: 10px;
+    color: #222;
+    background: url(./shopimgred.png) no-repeat left; 
+    background-size: 13.5px 12.5px;
+    background-position: 0px 12px;
+    padding-left: 20px;
+    line-height: 16px; 
+}
+.foods-list-zone{
+	overflow: hidden;
+	width: 100%;  
+}
+.foods-list-zone:last-child{
+	margin-bottom: 0px;
+}
+
+.foods-list-img{
+	overflow: hidden;
+	width: 75px;
+	float: left;
+}
+.foods-list-img img{
+	display: block;
+}
+.foods-list-m{
+	margin: 0 75px 0 85px;
+	height:52px;
+}
+.foods-list-r{ 
+    width: 75px; 
+    float: right; 
+    text-align: center; 
+}
+.list-m-tit{ 
+    line-height: 26px;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: block;
+    color: #222;
+    text-overflow: ellipsis;
+    margin-top: -1px;
+    white-space: nowrap;
+}
+.list-m-price{  
+	position: relative;
+	overflow: hidden;
+}
+.list-m-price span {
+    color: #999;
+    font-size: 12px; 
+    float: left;
+    display: block;
+    line-height: 26px;
+}
+.list-m-price .money-mark{
+	font-weight: bold;
+    font-size: 18px;
+}
+.list-m-price del {
+	position: absolute;
+    bottom: 7px;
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+    display: inline-block;
+    transform: scale(0.84) translateY(0.5px);
+    -webkit-transform: scale(0.84) translateY(0.5px);
+}
+a.get-foods{
+	cursor: pointer;
+    display: block;
+    padding: 3px 5px;
+    background: #e4341a;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 22px;
+    transform: scale(0.84);
+    -webkit-transform: scale(0.84);
+	margin:3px 0;
+}
+a.get-foods:hover{
+	color:#FFF;
+}
+.foods-list-r span{
+    display: inline;
+    color: #999;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 12px;
+    transform: scale(0.84);
+    -webkit-transform: scale(0.84);
+}
+div.pageDialogBG {
+    z-index: 100;
+    opacity: 0.4;
+}
+div.shop-pageDialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 102;
+    width: 100%;
+}
+.shop-getcode {
+    width: 92%;
+    height: 65%;
+    background: #FFF;
+    box-shadow: 0 0 1px rgba(0,0,0,0.7);
+    position: fixed;
+    left: 4%;
+    top: 15%;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.shop-content {
+    position: relative;
+    height: 100%;
+    width: 100%; 
+}
+a.cancel_btn {
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    color: #999;
+    font-size: 18px;
+    text-align: center;
+	top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.shop-code-show {
+    padding: 15px 10% 10px;
+    height: 80%;
+    height: -moz-calc(100% - 60px);
+    height: -webkit-calc(100% - 60px);
+    height: calc(100% - 60px);
+    overflow: scroll;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+}
+.shop-code-show h3{
+	color:#222;
+	font-size: 14px;
+	text-align: center;
+	line-height: 46px;
+}
+.pre-foods-list{
+	padding:15px 10% 0;
+	border-top:1px solid #222;
+	border-bottom: 1px solid #222;
+	text-align: center;
+}
+.pre-foods-list h5{
+	color:#222;
+	font-size: 12px;
+	line-height: 14px;
+}
+.mc-btn {
+	width: 90%;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    left: 5%; 
+    border-radius: 5px;
+}
+.mc-btn a {
+	width: 100%;
+    height: 100%;
+    line-height: 40px;
+    background: #e4341a;
+    color: #FFF;
+    font-size: 18px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer; 
+    text-align: center;
+}
+.mc-btn a.nor-btn{
+	width: 50%; 
+}
+.mc-btn a.nor-btn.fr{
+	width: 50%;
+	background: #FDBE17;
+}
+ul.pre-foods-show{
+    padding: 15px 15%;
+	overflow: hidden;
+}
+ul.pre-foods-show li{
+	color:#999;
+	font-size: 10px;
+	text-align: left;
+}
+ul.pre-foods-show li span{
+    float: left;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.count-all{
+	padding: 0 10% 0;
+	font-size: 12px; 
+	line-height: 24px;
+	color:#999;
+}
+.shop-code-show h4 {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    margin:15px 0 10px;
+}
+.foods-rules{
+	padding: 10px 10%;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999;
+    overflow: hidden;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+.weui_mask,.weui_dialog, .weui_toast {
+    z-index: 1000;
+}
+a.comfirm-buy {
+    line-height: 46px;
+    font-size: 14px;
+    color: #FFF;
+    background: #e4341a;
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    max-width: 640px;
+    background: -webkit-linear-gradient(#e4341a, #ec6412); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#e4341a, #ec6412); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#e4341a, #ec6412); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#e4341a, #ec6412); /* 标准的语法（必须放在最后） */
+}
